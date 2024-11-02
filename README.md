@@ -1,4 +1,4 @@
-# Projeto Eleições - Business Intelligence (BI)
+# Projeto Eleições - Em andamento
 
 Este é um projeto de BI completo (end-to-end) que utiliza dados das eleições disponibilizados pelo Tribunal Superior Eleitoral (TSE). O objetivo é extrair, transformar e carregar os dados eleitorais em um Data Warehouse (DW) de forma automatizada, permitindo a exploração e análise detalhada para obtenção de insights. 
 
@@ -14,8 +14,8 @@ Os dados utilizados neste projeto estão disponíveis no site do TSE em [dadosab
 
 ### 2. Criação do Banco de Dados
 - Scripts SQL para a criação do banco de dados, schemas e tabelas de dimensões estão incluídos no repositório:
-    - **Script de criação do banco e tabelas de dimensões**: define a estrutura e organização dos dados, incluindo as tabelas necessárias para armazenar dimensões.
-    - **Script de criação da tabela fato**: script específico para a criação da tabela fato, que armazena os dados das eleições.
+    - **Criação do banco e tabelas de dimensões**: define a estrutura e organização dos dados, incluindo as tabelas necessárias para armazenar dimensões.
+    - **Tabela fato**: script específico para a criação da tabela fato, que armazena os dados das eleições.
 
 ## Modelo Dimensional
 
