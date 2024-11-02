@@ -13,6 +13,7 @@ Os dados utilizados neste projeto estão disponíveis no site do TSE em [dadosab
 - A partir dessas informações, foi realizado o mapeamento das tabelas em **tabelas dimensão** e **tabelas fato**, formando o modelo dimensional.
 
 ### 2. Criação do Banco de Dados
+- Este projeto utiliza **SQL Server** como Sistema de Gerenciamento de Banco de Dados (SGBD).
 - Scripts SQL para a criação do banco de dados, schemas e tabelas de dimensões estão incluídos no repositório:
     - **Criação do banco e tabelas de dimensões**: define a estrutura e organização dos dados, incluindo as tabelas necessárias para armazenar dimensões.
     - **Tabela fato**: script específico para a criação da tabela fato, que armazena os dados das eleições.
@@ -22,3 +23,4 @@ Os dados utilizados neste projeto estão disponíveis no site do TSE em [dadosab
 Abaixo está o diagrama que representa o modelo dimensional do projeto, com as tabelas de dimensões e a tabela fato:
 
 ![Diagrama do Modelo Dimensional](https://github.com/RodrigoPranger/Eleicoes/blob/main/Diagrama_Eleicoes.png) 
+
